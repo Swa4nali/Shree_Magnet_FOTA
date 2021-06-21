@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="16dp"
+	tools:context=".fragments.AboutUsFragment">
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:id="@+id/aboutUsLbl"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="About Us"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+			android:textStyle="bold"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<TextView
+			android:id="@+id/aboutUsTxt"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:justificationMode="inter_word"
+			android:text="Rudra Magnets is pioneer in designing and manufacturing of magnetic work-holding, clamping, separation, lifting systems and other magnetic equipments. Presently headed by the 4rth Generation family members who are technically qualified. we are a government recognised RandD center and we pioneer in developing the next generation of magnetic products. With advanced design, outstanding performance and unsurpassed reliability, our products are superior than most of the products available in domestic and International Market. "
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/aboutUsLbl" />
+
+		<TextView
+			android:id="@+id/visionLbl"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp"
+			android:text="Vision"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+			android:textStyle="bold"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/aboutUsTxt" />
+
+		<TextView
+			android:id="@+id/visionTxt"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:justificationMode="inter_word"
+			android:text="Be the preferred partner to organisations in providing bespoke work-holding and lifting solutions using magnetic technology to maintain highest levels of customer satisfaction."
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/visionLbl" />
+
+		<TextView
+			android:id="@+id/missionLbl"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp"
+			android:text="Mission"
+			android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+			android:textStyle="bold"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/visionTxt" />
+
+		<TextView
+			android:id="@+id/missionTxt"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:justificationMode="inter_word"
+			android:text="Our mission is to amaze our customers with products that are easy to work with and make their lives easier through assured quality satisfaction. We strive to do it by continually developing products and innovative processes to build value for our customers. "
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/missionLbl" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
